@@ -1,0 +1,4 @@
+[submodule "MLOps-task"]
+	path = MLOps-task
+	url = git@github.com:ananthanandanan/MLOps-task.git
+	branch = master
