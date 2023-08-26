@@ -1,10 +1,8 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        s = sorted(s)
+        t = sorted(t)
 
-        if "".join(sorted(s)) == "".join(sorted(t)):
+        if s == t:
             return True
         return False
-
-    def notAnagram(self, s: str):
-        if s.capitalize():
-            return True
